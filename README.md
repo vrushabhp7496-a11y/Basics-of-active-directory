@@ -1,16 +1,67 @@
-# Basics-of-active-directory 🔏
-## In this module we are going to learn how actiive directory works,how to manage users in AD,how to create group policy and how to manage and apply them,i will uplode a small project regarding maneging user in active directory and applying user and group policy.📚
-### Active directory is the backbone of corporate world and cyber security.it ensuers the security for an organisation and ensure how employee can interact with data of org.
-### In this module we will lrarn about 
-- What Active Directory is 
-- What an Active Directory Domain is
-- What components go into an Active Directory Domain
-- Forests and Domain Trust
-### Basically a group of user or computers under one administration is called as Windows domain.💻👨‍💻
-- The server that runs Active directory is known as Domain controller.
-1. Users👨‍💻- these are the employees of the organisation who are assigned to have access to file or printers or devices via active directory controll.
-2. Machines🖥️-Machines are another type of object within Active Directory; for every computer that joins the Active Directory domain, a machine object will be created. Machines are also considered "security principals" and are assigned an account just as any regular user. This account has somewhat limited rights within the domain itself.
+# 🏢 Active Directory Lab Setup & Configuration
 
-3. The machine accounts themselves are local administrators on the assigned computer, they are generally not supposed to be accessed by anyone except the computer itself, but as with any other account, if you have the password, you can use it to log in.
-now we will see how to creat some users in AD.
-### Below i have added somme screenshot and a small project regarding adding users,creating organizational units,and applying group policies so go through it to understand active directory completely.
+This project documents my hands-on experience with **Active Directory** in a lab environment. I have performed various administrative and security tasks including user management, group policy configuration, and delegation.
+
+---
+
+## 📌 What's inside this project?
+
+In the PDF below, I have documented all the Active Directory tasks I performed with **step-by-step explanations and screenshots**.
+
+[📄 **Active Directory Lab - Full PDF**]
+
+### 📂 Tasks covered in the PDF:
+- 👥 Creating and managing **Users** 
+- 👥 Creating and managing **Security Groups**
+- 📁 Creating and managing **Organizational Units (OUs)**
+- 🔑 Setting **Password Policy** (complexity, length, expiration, lockout)
+- 🎯 Applying **Group Policy Objects (GPO)** for desktop restrictions
+- ❌ **Deleting and disabling** user accounts
+- 🎛️ **Delegation of Control** (assigning permissions to specific users/groups)
+- 📊 Verifying applied policies.
+
+---
+
+## 🛠️ Lab Environment
+
+| Component | Details |
+| :--- | :--- |
+| **Domain Controller** | Windows Server 2019 / 2022 |
+| **Client Machine** | Windows 10 / 11 |
+| **Domain Name** | `mylab.local` |
+| **Admin Account** | `Administrator` |
+
+---
+
+## 💡 Why did I do this project?
+
+Active Directory is widely used in enterprise environments for managing users, computers, and security policies. Understanding AD is critical for:
+
+- 🔹 **Blue Team** – Monitoring and securing AD environments
+- 🔹 **Red Team** – Identifying AD misconfigurations and attack paths
+- 🔹 **System Administrators** – Managing domain resources efficiently
+
+---
+
+## 📚 How did I learn?
+
+| Resource | What I learned |
+| :--- | :--- |
+| **TryHackMe** | Active Directory Basics, Attacktive Directory, Post-Exploitation |
+| **YouTube** | AD labs walkthroughs |
+
+---
+
+## 🔗 My Other Projects
+
+- 🐧 [Linux Fundamentals Project]
+- 🚀 Nmap for Beginners (coming soon)
+- 🚀 Metasploit Practice (coming soon)
+- 🚀 Wireshark Network Analysis (coming soon)
+
+
+
+
+> *"Hands-on practice is the only way to truly understand Active Directory."*
+
+⭐ **Star this repository** if you found it helpful!
